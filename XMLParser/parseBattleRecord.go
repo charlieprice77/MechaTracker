@@ -51,10 +51,11 @@ type PlayerRoundRecord struct {
 }
 
 type PlayerData struct {
-	ReactorCore         int           `xml:"reactorCore"`
-	Supply              int           `xml:"supply"`
-	PreRoundFightResult string        `xml:"preRoundFightResult"`
-	NewUnitData         []NewUnitData `xml:"units>NewUnitData"`
+	ReactorCore         int                  `xml:"reactorCore"`
+	Supply              int                  `xml:"supply"`
+	PreRoundFightResult string               `xml:"preRoundFightResult"`
+	NewUnitData         []NewUnitData        `xml:"units>NewUnitData"`
+	CommanderSkills     []CommanderSkillData `xml:"commanderSkills>CommanderSkillData"`
 }
 
 type NewUnitData struct {
@@ -73,6 +74,13 @@ type NewUnitData struct {
 type Position struct {
 	X int
 	Y int
+}
+
+type CommanderSkillData struct {
+	Index        int  `xml:"index,attr"`
+	Id           int  `xml:"id,attr"`
+	IsActive     bool `xml:"isActive,attr"`
+	CoolingRound int  `xml:"coolingRound,attr"`
 }
 
 func printFields(v reflect.Value, indent string) {
