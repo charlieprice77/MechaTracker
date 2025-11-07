@@ -12,6 +12,7 @@ type BattleRecord struct {
 	XMLName       xml.Name       `xml:"BattleRecord"`
 	PlayerRecords []PlayerRecord `xml:"playerRecords>PlayerRecord"`
 	// Add other fields as needed
+	OtherFields [][]byte `xml:",any"`
 }
 
 type PlayerRecord struct {
@@ -46,42 +47,100 @@ type Tech struct {
 }
 
 type PlayerRoundRecord struct {
-	RoundNumber int        `xml:"round"`
-	PlayerData  PlayerData `xml:"playerData"`
+	RoundNumber  int          `xml:"round"`
+	PlayerData   PlayerData   `xml:"playerData"`
+	ActionRecord ActionRecord `xml:"actionRecords"`
 }
 
+/* PlayerData and related data structures */
 type PlayerData struct {
 	ReactorCore         int                  `xml:"reactorCore"`
 	Supply              int                  `xml:"supply"`
 	PreRoundFightResult string               `xml:"preRoundFightResult"`
 	NewUnitData         []NewUnitData        `xml:"units>NewUnitData"`
 	CommanderSkills     []CommanderSkillData `xml:"commanderSkills>CommanderSkillData"`
+	ActiveTechnologies  []ActiveTechnologies `xml:"activeTechnologies>UnitData"`
+	Shop                Shop                 `xml:"shop"`
+	Contraptions        Contraptions         `xml:"contraptions"`
+	ContraptionIndex    []int                `xml:"contraptionIndex"`
+	Blueprints          []int                `xml:"bluepints>int"` // There is a typo in the XML
+	EnergyTowerSkils    []int                `xml:"energyTowerSkills>int"`
+	TowerStrengthLevels []int                `xml:"towerStrengthLevels>int"`
+	IsSpecialSupply     bool                 `xml:"IsSpecialSupply"`
 }
 
 type NewUnitData struct {
-	Id          int
-	Index       int
-	RoundCount  int
-	Durability  int
-	Exp         int
-	Level       int
-	Position    Position
-	EquipmentId int
-	IsRotate    bool
-	SellSupply  int
+	Id          int      `xml:"id"`
+	Index       int      `xml:"Index"`
+	RoundCount  int      `xml:"RoundCount"`
+	Durability  int      `xml:"Durability"`
+	Exp         int      `xml:"Exp"`
+	Level       int      `xml:"Level"`
+	Position    Position `xml:"Position"`
+	EquipmentId int      `xml:"EquipmentID"`
+	IsRotate    bool     `xml:"IsRotate"`
+	SellSupply  int      `xml:"SellSupply"`
 }
 
 type Position struct {
-	X int
-	Y int
+	X int `xml:"x"`
+	Y int `xml:"y"`
 }
 
 type CommanderSkillData struct {
-	Index        int  `xml:"index,attr"`
-	Id           int  `xml:"id,attr"`
-	IsActive     bool `xml:"isActive,attr"`
-	CoolingRound int  `xml:"coolingRound,attr"`
+	Index        int  `xml:"index"`
+	Id           int  `xml:"id"`
+	IsActive     bool `xml:"isActive"`
+	CoolingRound int  `xml:"coolingRound"`
 }
+
+type ActiveTechnologies struct {
+	Id   int  `xml:"id,attr"`
+	Tech Tech `xml:"techs>tech data"`
+}
+
+type Shop struct {
+	UnlockedUnits []int `xml:"unlockedUnits>int"`
+	LockedUnits   []int `xml:"lockedUnits>int"`
+}
+
+type Contraptions struct {
+	ContraptionData []ContraptionData `xml:"ContraptionData"`
+}
+
+type ContraptionData struct {
+	Index    int      `xml:"index"`
+	Id       int      `xml:"id"`
+	Position Position `xml:"position"`
+}
+
+/* ------------------------------ */
+
+/* Action Records and related data structures */
+type ActionRecord struct {
+	MatchActionData []MatchActionData `xml:"MatchActionData"`
+}
+
+type MatchActionData struct {
+	Type          string         `xml:"type,attr"`
+	Time          int            `xml:"Time"`
+	LocalTime     float32        `xml:"LocalTime"`
+	ID            int            `xml:"ID,omitempty"`
+	Index         int            `xml:"Index,omitempty"`
+	UID           int            `xml:"UID,omitempty"`
+	UIDX          int            `xml:"UIDX,omitempty"`
+	TechID        int            `xml:"TechID,omitempty"`
+	MoveUnitDatas []MoveUnitData `xml:"moveUnitDatas>MoveUnitData"`
+}
+
+type MoveUnitData struct {
+	UnitId    int      `xml:"unitID"`
+	UnitIndex int      `xml:"unitIndex"`
+	Position  Position `xml:"position"`
+	IsRotate  bool     `xml:"isRotate"`
+}
+
+/* ------------------------------ */
 
 func printFields(v reflect.Value, indent string) {
 	if v.Kind() == reflect.Ptr && !v.IsNil() {
@@ -133,5 +192,11 @@ func main() {
 			printFields(reflect.ValueOf((player)), "  ")
 			fmt.Println("--------------------------------------------------")
 		}
+		// break
 	}
+
+	for _, raw := range record.OtherFields {
+		fmt.Println("Unknown tag content:\n", string(raw))
+	}
+
 }
