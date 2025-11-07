@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"fmt"
 	"os"
@@ -142,6 +143,37 @@ type MoveUnitData struct {
 
 /* ------------------------------ */
 
+func BuildUnitTechLUT(record BattleRecord) map[int]map[int]string {
+	lut := make(map[int]map[int]string)
+
+	for _, player := range record.PlayerRecords {
+		if player.Name != "Bot" {
+			continue
+		}
+		for _, unit := range player.Data.UnitDatas {
+			if unit.Techs != nil {
+				for _, tech := range unit.Techs {
+					if _, ok := lut[unit.Id]; !ok {
+						lut[unit.Id] = make(map[int]string)
+					}
+					lut[unit.Id][tech.TechData] = "Tech"
+				}
+			}
+		}
+	}
+	return lut
+}
+
+func saveParsedRecord(record BattleRecord, filename string) error {
+	// Pretty-print JSON
+	jsonData, err := json.MarshalIndent(record, "", "  ")
+	if err != nil {
+		return fmt.Errorf("failed to marshal record: %w", err)
+	}
+
+	return os.WriteFile(filename, jsonData, 0644)
+}
+
 func printFields(v reflect.Value, indent string) {
 	if v.Kind() == reflect.Ptr && !v.IsNil() {
 		v = v.Elem()
@@ -167,7 +199,7 @@ func printFields(v reflect.Value, indent string) {
 }
 
 func main() {
-	xmlFile, err := os.ReadFile("battle_record.grbr")
+	xmlFile, err := os.ReadFile("BattleRecords/vsAI_Insane_25-11-07-21-22-50.grbr")
 	if err != nil {
 		panic(err)
 	}
@@ -199,4 +231,18 @@ func main() {
 		fmt.Println("Unknown tag content:\n", string(raw))
 	}
 
+	outputFile := "ParsedRecords/vsAI_Insane_25-11-07-21-22-50.json"
+	if _, err := os.Stat(outputFile); err == nil {
+		fmt.Println("File already exists, skipping: ", outputFile)
+	} else {
+		if err := saveParsedRecord(record, outputFile); err != nil {
+			panic(err)
+		}
+		fmt.Println("Saved parsed XML as JSON to: ", outputFile)
+	}
+
+	lut := BuildUnitTechLUT(record)
+	jsonData, _ := json.MarshalIndent(lut, "", "  ")
+	os.WriteFile("unit_tech_lut.json", jsonData, 0644)
+	fmt.Println("Exported LUT skeleton to unit_tech_lut.json")
 }

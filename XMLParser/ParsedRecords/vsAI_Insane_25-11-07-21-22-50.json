@@ -1,0 +1,3080 @@
+{
+  "XMLName": {
+    "Space": "",
+    "Local": "BattleRecord"
+  },
+  "PlayerRecords": [
+    {
+      "Name": "Charlie",
+      "Seed": 0,
+      "Ad": 0,
+      "Data": {
+        "ReactorCore": 4500,
+        "MaxReactorCore": 0,
+        "MaxRoundSupply": 4000,
+        "FirstRoundSupply": 200,
+        "RoundSupplyIncreaseValue": 200,
+        "Team": 0,
+        "IsLeader": false,
+        "Type": "Player",
+        "UnitDatas": [
+          {
+            "Id": 1,
+            "Techs": [
+              {
+                "TechData": 1105
+              },
+              {
+                "TechData": 1001
+              },
+              {
+                "TechData": 1201
+              },
+              {
+                "TechData": 110201
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 2,
+            "Techs": [
+              {
+                "TechData": 10202
+              },
+              {
+                "TechData": 10802
+              },
+              {
+                "TechData": 1202
+              },
+              {
+                "TechData": 1802
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 3,
+            "Techs": [
+              {
+                "TechData": 1203
+              },
+              {
+                "TechData": 1103
+              },
+              {
+                "TechData": 10203
+              },
+              {
+                "TechData": 10603
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 4,
+            "Techs": [
+              {
+                "TechData": 3004
+              },
+              {
+                "TechData": 1106
+              },
+              {
+                "TechData": 304
+              },
+              {
+                "TechData": 10204
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 5,
+            "Techs": [
+              {
+                "TechData": 180305
+              },
+              {
+                "TechData": 3005
+              },
+              {
+                "TechData": 2805
+              },
+              {
+                "TechData": 1109
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 6,
+            "Techs": [
+              {
+                "TechData": 206
+              },
+              {
+                "TechData": 1606
+              },
+              {
+                "TechData": 3206
+              },
+              {
+                "TechData": 1806
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 7,
+            "Techs": [
+              {
+                "TechData": 10207
+              },
+              {
+                "TechData": 407
+              },
+              {
+                "TechData": 3207
+              },
+              {
+                "TechData": 3307
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 8,
+            "Techs": [
+              {
+                "TechData": 608
+              },
+              {
+                "TechData": 308
+              },
+              {
+                "TechData": 10208
+              },
+              {
+                "TechData": 1308
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 9,
+            "Techs": [
+              {
+                "TechData": 10509
+              },
+              {
+                "TechData": 209
+              },
+              {
+                "TechData": 10209
+              },
+              {
+                "TechData": 180209
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 10,
+            "Techs": [
+              {
+                "TechData": 10510
+              },
+              {
+                "TechData": 10710
+              },
+              {
+                "TechData": 180110
+              },
+              {
+                "TechData": 3510
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 11,
+            "Techs": [
+              {
+                "TechData": 10211
+              },
+              {
+                "TechData": 180311
+              },
+              {
+                "TechData": 10311
+              },
+              {
+                "TechData": 1211
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 12,
+            "Techs": [
+              {
+                "TechData": 1812
+              },
+              {
+                "TechData": 812
+              },
+              {
+                "TechData": 10312
+              },
+              {
+                "TechData": 10212
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 13,
+            "Techs": [
+              {
+                "TechData": 10613
+              },
+              {
+                "TechData": 10513
+              },
+              {
+                "TechData": 1813
+              },
+              {
+                "TechData": 10213
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 14,
+            "Techs": [
+              {
+                "TechData": 1014
+              },
+              {
+                "TechData": 10214
+              },
+              {
+                "TechData": 1714
+              },
+              {
+                "TechData": 11014
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 15,
+            "Techs": [
+              {
+                "TechData": 10215
+              },
+              {
+                "TechData": 10815
+              },
+              {
+                "TechData": 10915
+              },
+              {
+                "TechData": 3115
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 16,
+            "Techs": [
+              {
+                "TechData": 10316
+              },
+              {
+                "TechData": 10916
+              },
+              {
+                "TechData": 10216
+              },
+              {
+                "TechData": 216
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 17,
+            "Techs": [
+              {
+                "TechData": 12017
+              },
+              {
+                "TechData": 12117
+              },
+              {
+                "TechData": 3317
+              },
+              {
+                "TechData": 12217
+              },
+              {
+                "TechData": 10217
+              },
+              {
+                "TechData": 10317
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 18,
+            "Techs": [
+              {
+                "TechData": 180418
+              },
+              {
+                "TechData": 110181
+              },
+              {
+                "TechData": 10218
+              },
+              {
+                "TechData": 3018
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 19,
+            "Techs": [
+              {
+                "TechData": 180519
+              },
+              {
+                "TechData": 10219
+              },
+              {
+                "TechData": 719
+              },
+              {
+                "TechData": 10019
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 101,
+            "Techs": [
+              {
+                "TechData": 1051
+              },
+              {
+                "TechData": 3051
+              },
+              {
+                "TechData": 12051
+              },
+              {
+                "TechData": 11051
+              },
+              {
+                "TechData": 180351
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 51,
+            "Techs": [
+              {
+                "TechData": 180651
+              },
+              {
+                "TechData": 1051
+              },
+              {
+                "TechData": 3051
+              },
+              {
+                "TechData": 12051
+              },
+              {
+                "TechData": 11051
+              },
+              {
+                "TechData": 180351
+              },
+              {
+                "TechData": 751
+              },
+              {
+                "TechData": 10351
+              },
+              {
+                "TechData": 120511
+              },
+              {
+                "TechData": 120512
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 52,
+            "Techs": [
+              {
+                "TechData": 180652
+              },
+              {
+                "TechData": 10452
+              },
+              {
+                "TechData": 12052
+              },
+              {
+                "TechData": 104521
+              },
+              {
+                "TechData": 2452
+              },
+              {
+                "TechData": 120521
+              },
+              {
+                "TechData": 120522
+              },
+              {
+                "TechData": 1852
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 53,
+            "Techs": [
+              {
+                "TechData": 10153
+              },
+              {
+                "TechData": 2353
+              },
+              {
+                "TechData": 180353
+              },
+              {
+                "TechData": 180253
+              },
+              {
+                "TechData": 10653
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 54,
+            "Techs": [
+              {
+                "TechData": 180654
+              },
+              {
+                "TechData": 11054
+              },
+              {
+                "TechData": 110542
+              },
+              {
+                "TechData": 1054
+              },
+              {
+                "TechData": 12054
+              },
+              {
+                "TechData": 10254
+              },
+              {
+                "TechData": 1803541
+              },
+              {
+                "TechData": 120541
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 61,
+            "Techs": [
+              {
+                "TechData": 11061
+              },
+              {
+                "TechData": 1061
+              },
+              {
+                "TechData": 12061
+              },
+              {
+                "TechData": 12161
+              },
+              {
+                "TechData": 180361
+              },
+              {
+                "TechData": 110611
+              },
+              {
+                "TechData": 10161
+              },
+              {
+                "TechData": 10261
+              },
+              {
+                "TechData": 10361
+              },
+              {
+                "TechData": 180661
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 64,
+            "Techs": [
+              {
+                "TechData": 110641
+              },
+              {
+                "TechData": 3164
+              },
+              {
+                "TechData": 110642
+              },
+              {
+                "TechData": 1064
+              },
+              {
+                "TechData": 1764
+              },
+              {
+                "TechData": 1864
+              },
+              {
+                "TechData": 120641
+              },
+              {
+                "TechData": 120642
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 68,
+            "Techs": [
+              {
+                "TechData": 180368
+              },
+              {
+                "TechData": 180468
+              },
+              {
+                "TechData": 2368
+              },
+              {
+                "TechData": 11068
+              },
+              {
+                "TechData": 110681
+              },
+              {
+                "TechData": 10268
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 55,
+            "Techs": [
+              {
+                "TechData": 28055
+              },
+              {
+                "TechData": 13055
+              },
+              {
+                "TechData": 11055
+              },
+              {
+                "TechData": 110551
+              },
+              {
+                "TechData": 180355
+              },
+              {
+                "TechData": 15055
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 60,
+            "Techs": [
+              {
+                "TechData": 660
+              },
+              {
+                "TechData": 2660
+              },
+              {
+                "TechData": 2560
+              },
+              {
+                "TechData": 10560
+              },
+              {
+                "TechData": 460
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 66,
+            "Techs": [
+              {
+                "TechData": 10466
+              },
+              {
+                "TechData": 2966
+              },
+              {
+                "TechData": 266
+              },
+              {
+                "TechData": 180166
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 58,
+            "Techs": [
+              {
+                "TechData": 12058
+              },
+              {
+                "TechData": 2458
+              },
+              {
+                "TechData": 13058
+              },
+              {
+                "TechData": 180358
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 59,
+            "Techs": [
+              {
+                "TechData": 180259
+              },
+              {
+                "TechData": 10259
+              },
+              {
+                "TechData": 459
+              },
+              {
+                "TechData": 259
+              },
+              {
+                "TechData": 180359
+              },
+              {
+                "TechData": 180673
+              },
+              {
+                "TechData": 12059
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 67,
+            "Techs": [
+              {
+                "TechData": 12067
+              },
+              {
+                "TechData": 12167
+              },
+              {
+                "TechData": 12267
+              },
+              {
+                "TechData": 1803671
+              },
+              {
+                "TechData": 1803672
+              },
+              {
+                "TechData": 10267
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 69,
+            "Techs": [
+              {
+                "TechData": 180669
+              },
+              {
+                "TechData": 1069
+              },
+              {
+                "TechData": 12069
+              },
+              {
+                "TechData": 180569
+              },
+              {
+                "TechData": 11069
+              },
+              {
+                "TechData": 10069
+              },
+              {
+                "TechData": 120691
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 57,
+            "Techs": [
+              {
+                "TechData": 10257
+              },
+              {
+                "TechData": 357
+              },
+              {
+                "TechData": 457
+              },
+              {
+                "TechData": 657
+              },
+              {
+                "TechData": 1857
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 56,
+            "Techs": [
+              {
+                "TechData": 10206
+              },
+              {
+                "TechData": 10956
+              },
+              {
+                "TechData": 256
+              },
+              {
+                "TechData": 456
+              },
+              {
+                "TechData": 1856
+              },
+              {
+                "TechData": 180673
+              },
+              {
+                "TechData": 10256
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 63,
+            "Techs": [
+              {
+                "TechData": 463
+              },
+              {
+                "TechData": 863
+              },
+              {
+                "TechData": 963
+              },
+              {
+                "TechData": 10263
+              },
+              {
+                "TechData": 1863
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 62,
+            "Techs": [
+              {
+                "TechData": 180562
+              },
+              {
+                "TechData": 120621
+              },
+              {
+                "TechData": 120622
+              },
+              {
+                "TechData": 462
+              },
+              {
+                "TechData": 10362
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 65,
+            "Techs": [
+              {
+                "TechData": 10365
+              },
+              {
+                "TechData": 1865
+              },
+              {
+                "TechData": 180565
+              },
+              {
+                "TechData": 3165
+              },
+              {
+                "TechData": 104651
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 20,
+            "Techs": [
+              {
+                "TechData": 10220
+              },
+              {
+                "TechData": 180620
+              },
+              {
+                "TechData": 820
+              },
+              {
+                "TechData": 10620
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 21,
+            "Techs": [
+              {
+                "TechData": 10221
+              },
+              {
+                "TechData": 110211
+              },
+              {
+                "TechData": 3321
+              },
+              {
+                "TechData": 721
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 22,
+            "Techs": [
+              {
+                "TechData": 3222
+              },
+              {
+                "TechData": 1022
+              },
+              {
+                "TechData": 11022
+              },
+              {
+                "TechData": 3022
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 153,
+            "Techs": [
+              {
+                "TechData": 1806153
+              },
+              {
+                "TechData": 1802153
+              },
+              {
+                "TechData": 102153
+              },
+              {
+                "TechData": 101531
+              },
+              {
+                "TechData": 110531
+              },
+              {
+                "TechData": 110532
+              },
+              {
+                "TechData": 31153
+              },
+              {
+                "TechData": 1201531
+              },
+              {
+                "TechData": 1201532
+              },
+              {
+                "TechData": 1803153
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 70,
+            "Techs": [
+              {
+                "TechData": 10270
+              },
+              {
+                "TechData": 870
+              },
+              {
+                "TechData": 180270
+              },
+              {
+                "TechData": 180370
+              },
+              {
+                "TechData": 11070
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 71,
+            "Techs": [
+              {
+                "TechData": 10371
+              },
+              {
+                "TechData": 10271
+              },
+              {
+                "TechData": 771
+              },
+              {
+                "TechData": 10571
+              },
+              {
+                "TechData": 3371
+              },
+              {
+                "TechData": 3171
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 72,
+            "Techs": [
+              {
+                "TechData": 180672
+              },
+              {
+                "TechData": 10272
+              },
+              {
+                "TechData": 3272
+              },
+              {
+                "TechData": 10572
+              },
+              {
+                "TechData": 10072
+              },
+              {
+                "TechData": 11072
+              },
+              {
+                "TechData": 120721
+              },
+              {
+                "TechData": 120722
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 168,
+            "Techs": [
+              {
+                "TechData": 1806168
+              },
+              {
+                "TechData": 102168
+              },
+              {
+                "TechData": 110681
+              },
+              {
+                "TechData": 1201681
+              },
+              {
+                "TechData": 1201682
+              },
+              {
+                "TechData": 1804168
+              },
+              {
+                "TechData": 32168
+              },
+              {
+                "TechData": 11068
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 167,
+            "Techs": [
+              {
+                "TechData": 12067
+              },
+              {
+                "TechData": 12167
+              },
+              {
+                "TechData": 12267
+              },
+              {
+                "TechData": 1803671
+              },
+              {
+                "TechData": 1803672
+              },
+              {
+                "TechData": 10267
+              },
+              {
+                "TechData": 1806167
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 23,
+            "Techs": [
+              {
+                "TechData": 3623
+              },
+              {
+                "TechData": 3723
+              },
+              {
+                "TechData": 13023
+              },
+              {
+                "TechData": 10523
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 1001,
+            "Techs": null,
+            "UnlockedTech": null
+          },
+          {
+            "Id": 73,
+            "Techs": [
+              {
+                "TechData": 180673
+              },
+              {
+                "TechData": 120173
+              },
+              {
+                "TechData": 3173
+              },
+              {
+                "TechData": 3673
+              },
+              {
+                "TechData": 3773
+              },
+              {
+                "TechData": 2373
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 24,
+            "Techs": [
+              {
+                "TechData": 424
+              },
+              {
+                "TechData": 3024
+              },
+              {
+                "TechData": 3124
+              },
+              {
+                "TechData": 10224
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 1002,
+            "Techs": null,
+            "UnlockedTech": null
+          },
+          {
+            "Id": 26,
+            "Techs": [
+              {
+                "TechData": 180326
+              },
+              {
+                "TechData": 3226
+              },
+              {
+                "TechData": 10226
+              },
+              {
+                "TechData": 726
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 25,
+            "Techs": [
+              {
+                "TechData": 725
+              },
+              {
+                "TechData": 11025
+              },
+              {
+                "TechData": 3925
+              },
+              {
+                "TechData": 3025
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 27,
+            "Techs": [
+              {
+                "TechData": 4027
+              },
+              {
+                "TechData": 4127
+              },
+              {
+                "TechData": 1827
+              },
+              {
+                "TechData": 10227
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 2001,
+            "Techs": [
+              {
+                "TechData": 1102001
+              },
+              {
+                "TechData": 1022001
+              },
+              {
+                "TechData": 1202001
+              },
+              {
+                "TechData": 102001
+              },
+              {
+                "TechData": 32001
+              },
+              {
+                "TechData": 11020012
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 28,
+            "Techs": [
+              {
+                "TechData": 3028
+              },
+              {
+                "TechData": 10228
+              },
+              {
+                "TechData": 4228
+              },
+              {
+                "TechData": 11028
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 29,
+            "Techs": [
+              {
+                "TechData": 10229
+              },
+              {
+                "TechData": 2329
+              },
+              {
+                "TechData": 180329
+              },
+              {
+                "TechData": 11029
+              },
+              {
+                "TechData": 110291
+              },
+              {
+                "TechData": 4329
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 2002,
+            "Techs": [
+              {
+                "TechData": 11020021
+              },
+              {
+                "TechData": 302002
+              },
+              {
+                "TechData": 72002
+              },
+              {
+                "TechData": 1032002
+              },
+              {
+                "TechData": 11020022
+              },
+              {
+                "TechData": 18032002
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 30,
+            "Techs": [
+              {
+                "TechData": 10230
+              },
+              {
+                "TechData": 180430
+              },
+              {
+                "TechData": 180530
+              },
+              {
+                "TechData": 4430
+              }
+            ],
+            "UnlockedTech": null
+          }
+        ]
+      },
+      "RoundRecord": [
+        {
+          "RoundNumber": 0,
+          "PlayerData": {
+            "ReactorCore": 4500,
+            "Supply": 0,
+            "PreRoundFightResult": "Win",
+            "NewUnitData": null,
+            "CommanderSkills": null,
+            "ActiveTechnologies": null,
+            "Shop": {
+              "UnlockedUnits": null,
+              "LockedUnits": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                23,
+                24,
+                26,
+                25,
+                27,
+                28,
+                29,
+                2002,
+                30
+              ]
+            },
+            "Contraptions": {
+              "ContraptionData": null
+            },
+            "ContraptionIndex": [
+              0
+            ],
+            "Blueprints": null,
+            "EnergyTowerSkils": null,
+            "TowerStrengthLevels": null,
+            "IsSpecialSupply": false
+          },
+          "ActionRecord": {
+            "MatchActionData": [
+              {
+                "Type": "PAD_ChooseAdvanceTeam",
+                "Time": 0,
+                "LocalTime": 55.85,
+                "ID": 9891,
+                "Index": 0,
+                "UID": 0,
+                "UIDX": 0,
+                "TechID": 0,
+                "MoveUnitDatas": null
+              }
+            ]
+          }
+        },
+        {
+          "RoundNumber": 1,
+          "PlayerData": {
+            "ReactorCore": 4500,
+            "Supply": 0,
+            "PreRoundFightResult": "Win",
+            "NewUnitData": [
+              {
+                "Id": 24,
+                "Index": 0,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": -5,
+                  "Y": -165
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 200
+              },
+              {
+                "Id": 24,
+                "Index": 1,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": -35,
+                  "Y": -165
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 200
+              },
+              {
+                "Id": 10,
+                "Index": 2,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 5,
+                  "Y": -140
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 100
+              },
+              {
+                "Id": 10,
+                "Index": 3,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 5,
+                  "Y": -190
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 100
+              },
+              {
+                "Id": 10,
+                "Index": 4,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 35,
+                  "Y": -160
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 100
+              }
+            ],
+            "CommanderSkills": null,
+            "ActiveTechnologies": null,
+            "Shop": {
+              "UnlockedUnits": [
+                24,
+                10
+              ],
+              "LockedUnits": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                23,
+                26,
+                25,
+                27,
+                28,
+                29,
+                2002,
+                30
+              ]
+            },
+            "Contraptions": {
+              "ContraptionData": null
+            },
+            "ContraptionIndex": [
+              0
+            ],
+            "Blueprints": null,
+            "EnergyTowerSkils": null,
+            "TowerStrengthLevels": null,
+            "IsSpecialSupply": false
+          },
+          "ActionRecord": {
+            "MatchActionData": [
+              {
+                "Type": "PAD_GiveUp",
+                "Time": 0,
+                "LocalTime": 73.3,
+                "ID": 0,
+                "Index": 0,
+                "UID": 0,
+                "UIDX": 0,
+                "TechID": 0,
+                "MoveUnitDatas": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Bot",
+      "Seed": 0,
+      "Ad": 10004,
+      "Data": {
+        "ReactorCore": 4500,
+        "MaxReactorCore": 0,
+        "MaxRoundSupply": 4000,
+        "FirstRoundSupply": 200,
+        "RoundSupplyIncreaseValue": 200,
+        "Team": 0,
+        "IsLeader": false,
+        "Type": "Player",
+        "UnitDatas": [
+          {
+            "Id": 1,
+            "Techs": [
+              {
+                "TechData": 1001
+              },
+              {
+                "TechData": 10201
+              },
+              {
+                "TechData": 1105
+              },
+              {
+                "TechData": 1201
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 2,
+            "Techs": [
+              {
+                "TechData": 702
+              },
+              {
+                "TechData": 10202
+              },
+              {
+                "TechData": 10402
+              },
+              {
+                "TechData": 1802
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 3,
+            "Techs": [
+              {
+                "TechData": 180203
+              },
+              {
+                "TechData": 10203
+              },
+              {
+                "TechData": 1103
+              },
+              {
+                "TechData": 10603
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 4,
+            "Techs": [
+              {
+                "TechData": 304
+              },
+              {
+                "TechData": 10204
+              },
+              {
+                "TechData": 1107
+              },
+              {
+                "TechData": 1106
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 5,
+            "Techs": [
+              {
+                "TechData": 1109
+              },
+              {
+                "TechData": 180305
+              },
+              {
+                "TechData": 905
+              },
+              {
+                "TechData": 2805
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 6,
+            "Techs": [
+              {
+                "TechData": 206
+              },
+              {
+                "TechData": 10206
+              },
+              {
+                "TechData": 1606
+              },
+              {
+                "TechData": 506
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 7,
+            "Techs": [
+              {
+                "TechData": 3307
+              },
+              {
+                "TechData": 10207
+              },
+              {
+                "TechData": 407
+              },
+              {
+                "TechData": 3207
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 8,
+            "Techs": [
+              {
+                "TechData": 308
+              },
+              {
+                "TechData": 608
+              },
+              {
+                "TechData": 10208
+              },
+              {
+                "TechData": 1308
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 9,
+            "Techs": [
+              {
+                "TechData": 180209
+              },
+              {
+                "TechData": 10209
+              },
+              {
+                "TechData": 10509
+              },
+              {
+                "TechData": 209
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 10,
+            "Techs": [
+              {
+                "TechData": 10510
+              },
+              {
+                "TechData": 180110
+              },
+              {
+                "TechData": 2610
+              },
+              {
+                "TechData": 2710
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 11,
+            "Techs": [
+              {
+                "TechData": 1108
+              },
+              {
+                "TechData": 10311
+              },
+              {
+                "TechData": 1211
+              },
+              {
+                "TechData": 1611
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 12,
+            "Techs": [
+              {
+                "TechData": 812
+              },
+              {
+                "TechData": 10212
+              },
+              {
+                "TechData": 10312
+              },
+              {
+                "TechData": 412
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 13,
+            "Techs": [
+              {
+                "TechData": 913
+              },
+              {
+                "TechData": 613
+              },
+              {
+                "TechData": 10513
+              },
+              {
+                "TechData": 10213
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 14,
+            "Techs": [
+              {
+                "TechData": 11014
+              },
+              {
+                "TechData": 1014
+              },
+              {
+                "TechData": 10214
+              },
+              {
+                "TechData": 1714
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 15,
+            "Techs": [
+              {
+                "TechData": 10215
+              },
+              {
+                "TechData": 1815
+              },
+              {
+                "TechData": 10915
+              },
+              {
+                "TechData": 3015
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 16,
+            "Techs": [
+              {
+                "TechData": 2916
+              },
+              {
+                "TechData": 10216
+              },
+              {
+                "TechData": 10316
+              },
+              {
+                "TechData": 216
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 17,
+            "Techs": [
+              {
+                "TechData": 10217
+              },
+              {
+                "TechData": 12017
+              },
+              {
+                "TechData": 12117
+              },
+              {
+                "TechData": 3317
+              },
+              {
+                "TechData": 10317
+              },
+              {
+                "TechData": 180317
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 18,
+            "Techs": [
+              {
+                "TechData": 110181
+              },
+              {
+                "TechData": 10218
+              },
+              {
+                "TechData": 3018
+              },
+              {
+                "TechData": 180418
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 19,
+            "Techs": [
+              {
+                "TechData": 180519
+              },
+              {
+                "TechData": 10019
+              },
+              {
+                "TechData": 10219
+              },
+              {
+                "TechData": 719
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 101,
+            "Techs": [
+              {
+                "TechData": 1051
+              },
+              {
+                "TechData": 3051
+              },
+              {
+                "TechData": 12051
+              },
+              {
+                "TechData": 11051
+              },
+              {
+                "TechData": 180351
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 51,
+            "Techs": [
+              {
+                "TechData": 180651
+              },
+              {
+                "TechData": 1051
+              },
+              {
+                "TechData": 3051
+              },
+              {
+                "TechData": 12051
+              },
+              {
+                "TechData": 11051
+              },
+              {
+                "TechData": 180351
+              },
+              {
+                "TechData": 751
+              },
+              {
+                "TechData": 10351
+              },
+              {
+                "TechData": 120511
+              },
+              {
+                "TechData": 120512
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 52,
+            "Techs": [
+              {
+                "TechData": 180652
+              },
+              {
+                "TechData": 10452
+              },
+              {
+                "TechData": 12052
+              },
+              {
+                "TechData": 104521
+              },
+              {
+                "TechData": 2452
+              },
+              {
+                "TechData": 120521
+              },
+              {
+                "TechData": 120522
+              },
+              {
+                "TechData": 1852
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 53,
+            "Techs": [
+              {
+                "TechData": 10153
+              },
+              {
+                "TechData": 2353
+              },
+              {
+                "TechData": 180353
+              },
+              {
+                "TechData": 180253
+              },
+              {
+                "TechData": 10653
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 54,
+            "Techs": [
+              {
+                "TechData": 180654
+              },
+              {
+                "TechData": 11054
+              },
+              {
+                "TechData": 110542
+              },
+              {
+                "TechData": 1054
+              },
+              {
+                "TechData": 12054
+              },
+              {
+                "TechData": 10254
+              },
+              {
+                "TechData": 1803541
+              },
+              {
+                "TechData": 120541
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 61,
+            "Techs": [
+              {
+                "TechData": 11061
+              },
+              {
+                "TechData": 1061
+              },
+              {
+                "TechData": 12061
+              },
+              {
+                "TechData": 12161
+              },
+              {
+                "TechData": 180361
+              },
+              {
+                "TechData": 110611
+              },
+              {
+                "TechData": 10161
+              },
+              {
+                "TechData": 10261
+              },
+              {
+                "TechData": 10361
+              },
+              {
+                "TechData": 180661
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 64,
+            "Techs": [
+              {
+                "TechData": 110641
+              },
+              {
+                "TechData": 3164
+              },
+              {
+                "TechData": 110642
+              },
+              {
+                "TechData": 1064
+              },
+              {
+                "TechData": 1764
+              },
+              {
+                "TechData": 1864
+              },
+              {
+                "TechData": 120641
+              },
+              {
+                "TechData": 120642
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 68,
+            "Techs": [
+              {
+                "TechData": 180368
+              },
+              {
+                "TechData": 180468
+              },
+              {
+                "TechData": 2368
+              },
+              {
+                "TechData": 11068
+              },
+              {
+                "TechData": 110681
+              },
+              {
+                "TechData": 10268
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 55,
+            "Techs": [
+              {
+                "TechData": 28055
+              },
+              {
+                "TechData": 13055
+              },
+              {
+                "TechData": 11055
+              },
+              {
+                "TechData": 110551
+              },
+              {
+                "TechData": 180355
+              },
+              {
+                "TechData": 15055
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 60,
+            "Techs": [
+              {
+                "TechData": 660
+              },
+              {
+                "TechData": 2660
+              },
+              {
+                "TechData": 2560
+              },
+              {
+                "TechData": 10560
+              },
+              {
+                "TechData": 460
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 66,
+            "Techs": [
+              {
+                "TechData": 10466
+              },
+              {
+                "TechData": 2966
+              },
+              {
+                "TechData": 266
+              },
+              {
+                "TechData": 180166
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 58,
+            "Techs": [
+              {
+                "TechData": 12058
+              },
+              {
+                "TechData": 2458
+              },
+              {
+                "TechData": 13058
+              },
+              {
+                "TechData": 180358
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 59,
+            "Techs": [
+              {
+                "TechData": 180259
+              },
+              {
+                "TechData": 10259
+              },
+              {
+                "TechData": 459
+              },
+              {
+                "TechData": 259
+              },
+              {
+                "TechData": 180359
+              },
+              {
+                "TechData": 180673
+              },
+              {
+                "TechData": 12059
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 67,
+            "Techs": [
+              {
+                "TechData": 12067
+              },
+              {
+                "TechData": 12167
+              },
+              {
+                "TechData": 12267
+              },
+              {
+                "TechData": 1803671
+              },
+              {
+                "TechData": 1803672
+              },
+              {
+                "TechData": 10267
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 69,
+            "Techs": [
+              {
+                "TechData": 180669
+              },
+              {
+                "TechData": 1069
+              },
+              {
+                "TechData": 12069
+              },
+              {
+                "TechData": 180569
+              },
+              {
+                "TechData": 11069
+              },
+              {
+                "TechData": 10069
+              },
+              {
+                "TechData": 120691
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 57,
+            "Techs": [
+              {
+                "TechData": 10257
+              },
+              {
+                "TechData": 357
+              },
+              {
+                "TechData": 457
+              },
+              {
+                "TechData": 657
+              },
+              {
+                "TechData": 1857
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 56,
+            "Techs": [
+              {
+                "TechData": 10206
+              },
+              {
+                "TechData": 10956
+              },
+              {
+                "TechData": 256
+              },
+              {
+                "TechData": 456
+              },
+              {
+                "TechData": 1856
+              },
+              {
+                "TechData": 180673
+              },
+              {
+                "TechData": 10256
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 63,
+            "Techs": [
+              {
+                "TechData": 463
+              },
+              {
+                "TechData": 863
+              },
+              {
+                "TechData": 963
+              },
+              {
+                "TechData": 10263
+              },
+              {
+                "TechData": 1863
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 62,
+            "Techs": [
+              {
+                "TechData": 180562
+              },
+              {
+                "TechData": 120621
+              },
+              {
+                "TechData": 120622
+              },
+              {
+                "TechData": 462
+              },
+              {
+                "TechData": 10362
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 65,
+            "Techs": [
+              {
+                "TechData": 10365
+              },
+              {
+                "TechData": 1865
+              },
+              {
+                "TechData": 180565
+              },
+              {
+                "TechData": 3165
+              },
+              {
+                "TechData": 104651
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 20,
+            "Techs": [
+              {
+                "TechData": 10220
+              },
+              {
+                "TechData": 820
+              },
+              {
+                "TechData": 180220
+              },
+              {
+                "TechData": 920
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 21,
+            "Techs": [
+              {
+                "TechData": 10221
+              },
+              {
+                "TechData": 10321
+              },
+              {
+                "TechData": 3321
+              },
+              {
+                "TechData": 721
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 22,
+            "Techs": [
+              {
+                "TechData": 3022
+              },
+              {
+                "TechData": 3222
+              },
+              {
+                "TechData": 1022
+              },
+              {
+                "TechData": 11022
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 153,
+            "Techs": [
+              {
+                "TechData": 1806153
+              },
+              {
+                "TechData": 1802153
+              },
+              {
+                "TechData": 102153
+              },
+              {
+                "TechData": 101531
+              },
+              {
+                "TechData": 110531
+              },
+              {
+                "TechData": 110532
+              },
+              {
+                "TechData": 31153
+              },
+              {
+                "TechData": 1201531
+              },
+              {
+                "TechData": 1201532
+              },
+              {
+                "TechData": 1803153
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 70,
+            "Techs": [
+              {
+                "TechData": 10270
+              },
+              {
+                "TechData": 870
+              },
+              {
+                "TechData": 180270
+              },
+              {
+                "TechData": 180370
+              },
+              {
+                "TechData": 11070
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 71,
+            "Techs": [
+              {
+                "TechData": 10371
+              },
+              {
+                "TechData": 10271
+              },
+              {
+                "TechData": 771
+              },
+              {
+                "TechData": 10571
+              },
+              {
+                "TechData": 3371
+              },
+              {
+                "TechData": 3171
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 72,
+            "Techs": [
+              {
+                "TechData": 180672
+              },
+              {
+                "TechData": 10272
+              },
+              {
+                "TechData": 3272
+              },
+              {
+                "TechData": 10572
+              },
+              {
+                "TechData": 10072
+              },
+              {
+                "TechData": 11072
+              },
+              {
+                "TechData": 120721
+              },
+              {
+                "TechData": 120722
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 168,
+            "Techs": [
+              {
+                "TechData": 1806168
+              },
+              {
+                "TechData": 102168
+              },
+              {
+                "TechData": 110681
+              },
+              {
+                "TechData": 1201681
+              },
+              {
+                "TechData": 1201682
+              },
+              {
+                "TechData": 1804168
+              },
+              {
+                "TechData": 32168
+              },
+              {
+                "TechData": 11068
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 167,
+            "Techs": [
+              {
+                "TechData": 12067
+              },
+              {
+                "TechData": 12167
+              },
+              {
+                "TechData": 12267
+              },
+              {
+                "TechData": 1803671
+              },
+              {
+                "TechData": 1803672
+              },
+              {
+                "TechData": 10267
+              },
+              {
+                "TechData": 1806167
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 23,
+            "Techs": [
+              {
+                "TechData": 10523
+              },
+              {
+                "TechData": 13023
+              },
+              {
+                "TechData": 923
+              },
+              {
+                "TechData": 3623
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 1001,
+            "Techs": null,
+            "UnlockedTech": null
+          },
+          {
+            "Id": 73,
+            "Techs": [
+              {
+                "TechData": 180673
+              },
+              {
+                "TechData": 120173
+              },
+              {
+                "TechData": 3173
+              },
+              {
+                "TechData": 3673
+              },
+              {
+                "TechData": 3773
+              },
+              {
+                "TechData": 2373
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 24,
+            "Techs": [
+              {
+                "TechData": 11024
+              },
+              {
+                "TechData": 10224
+              },
+              {
+                "TechData": 10524
+              },
+              {
+                "TechData": 10624
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 1002,
+            "Techs": null,
+            "UnlockedTech": null
+          },
+          {
+            "Id": 26,
+            "Techs": [
+              {
+                "TechData": 180326
+              },
+              {
+                "TechData": 180526
+              },
+              {
+                "TechData": 3326
+              },
+              {
+                "TechData": 1826
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 25,
+            "Techs": [
+              {
+                "TechData": 725
+              },
+              {
+                "TechData": 10225
+              },
+              {
+                "TechData": 3925
+              },
+              {
+                "TechData": 11025
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 27,
+            "Techs": [
+              {
+                "TechData": 110271
+              },
+              {
+                "TechData": 4027
+              },
+              {
+                "TechData": 4127
+              },
+              {
+                "TechData": 10227
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 2001,
+            "Techs": [
+              {
+                "TechData": 1102001
+              },
+              {
+                "TechData": 1022001
+              },
+              {
+                "TechData": 1202001
+              },
+              {
+                "TechData": 102001
+              },
+              {
+                "TechData": 32001
+              },
+              {
+                "TechData": 11020012
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 28,
+            "Techs": [
+              {
+                "TechData": 10528
+              },
+              {
+                "TechData": 10228
+              },
+              {
+                "TechData": 4228
+              },
+              {
+                "TechData": 11028
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 29,
+            "Techs": [
+              {
+                "TechData": 10229
+              },
+              {
+                "TechData": 12029
+              },
+              {
+                "TechData": 180329
+              },
+              {
+                "TechData": 11029
+              },
+              {
+                "TechData": 110291
+              },
+              {
+                "TechData": 4329
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 2002,
+            "Techs": [
+              {
+                "TechData": 11020021
+              },
+              {
+                "TechData": 302002
+              },
+              {
+                "TechData": 72002
+              },
+              {
+                "TechData": 1032002
+              },
+              {
+                "TechData": 11020022
+              },
+              {
+                "TechData": 18032002
+              }
+            ],
+            "UnlockedTech": null
+          },
+          {
+            "Id": 30,
+            "Techs": [
+              {
+                "TechData": 10230
+              },
+              {
+                "TechData": 230
+              },
+              {
+                "TechData": 10930
+              },
+              {
+                "TechData": 4430
+              }
+            ],
+            "UnlockedTech": null
+          }
+        ]
+      },
+      "RoundRecord": [
+        {
+          "RoundNumber": 0,
+          "PlayerData": {
+            "ReactorCore": 4500,
+            "Supply": 0,
+            "PreRoundFightResult": "Win",
+            "NewUnitData": null,
+            "CommanderSkills": null,
+            "ActiveTechnologies": null,
+            "Shop": {
+              "UnlockedUnits": null,
+              "LockedUnits": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                23,
+                24,
+                26,
+                25,
+                27,
+                28,
+                29,
+                2002,
+                30
+              ]
+            },
+            "Contraptions": {
+              "ContraptionData": null
+            },
+            "ContraptionIndex": [
+              0
+            ],
+            "Blueprints": null,
+            "EnergyTowerSkils": null,
+            "TowerStrengthLevels": null,
+            "IsSpecialSupply": false
+          },
+          "ActionRecord": {
+            "MatchActionData": [
+              {
+                "Type": "PAD_ChooseAdvanceTeam",
+                "Time": 0,
+                "LocalTime": 55.85,
+                "ID": 9895,
+                "Index": 3,
+                "UID": 0,
+                "UIDX": 0,
+                "TechID": 0,
+                "MoveUnitDatas": null
+              }
+            ]
+          }
+        },
+        {
+          "RoundNumber": 1,
+          "PlayerData": {
+            "ReactorCore": 4400,
+            "Supply": 0,
+            "PreRoundFightResult": "Win",
+            "NewUnitData": [
+              {
+                "Id": 28,
+                "Index": 0,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 0,
+                  "Y": 160
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 100
+              },
+              {
+                "Id": 28,
+                "Index": 1,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 0,
+                  "Y": 140
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 100
+              },
+              {
+                "Id": 28,
+                "Index": 2,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 0,
+                  "Y": 180
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 100
+              },
+              {
+                "Id": 13,
+                "Index": 3,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 5,
+                  "Y": 200
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 200
+              },
+              {
+                "Id": 13,
+                "Index": 4,
+                "RoundCount": 0,
+                "Durability": 0,
+                "Exp": 0,
+                "Level": 0,
+                "Position": {
+                  "X": 45,
+                  "Y": 160
+                },
+                "EquipmentId": 0,
+                "IsRotate": false,
+                "SellSupply": 200
+              }
+            ],
+            "CommanderSkills": null,
+            "ActiveTechnologies": null,
+            "Shop": {
+              "UnlockedUnits": [
+                28,
+                13
+              ],
+              "LockedUnits": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                23,
+                24,
+                26,
+                25,
+                27,
+                29,
+                2002,
+                30
+              ]
+            },
+            "Contraptions": {
+              "ContraptionData": null
+            },
+            "ContraptionIndex": [
+              0
+            ],
+            "Blueprints": null,
+            "EnergyTowerSkils": null,
+            "TowerStrengthLevels": null,
+            "IsSpecialSupply": false
+          },
+          "ActionRecord": {
+            "MatchActionData": null
+          }
+        }
+      ]
+    }
+  ],
+  "OtherFields": [
+    "CiAgICAKICAgIAogIA==",
+    "",
+    "MTg1NA==",
+    "MA==",
+    "CiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAgCiAg",
+    "MDAwMS0wMS0wMVQwMDowMDowMA=="
+  ]
+}
